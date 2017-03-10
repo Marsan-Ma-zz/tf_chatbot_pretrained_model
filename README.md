@@ -7,9 +7,9 @@ This repository collect some pretrained model for the implementation [tf_chatbot
 
 1. **example_model.tar.gz**
 
-   A pre-trained model using twitter_en corpus from [this repository](https://github.com/Marsan-Ma/chat_corpus)
+   A pre-trained model using twitter_en corpus from [this repository](https://github.com/Marsan-Ma/chat_corpus)    
    this one is smaller and suitable for demo, 
-   but it might generate _UNK token since the dictionary is smaller.   
+   but it might generate _UNK (unknown word token) since the dictionary is smaller.   
    (params: size = 128, vocab_size = 50000, num_layers = 4)
 
 2. **twitter_en_big_model.tar.gz**
